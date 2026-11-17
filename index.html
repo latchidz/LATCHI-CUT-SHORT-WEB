@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LATCHI CUT SHORT — قصّ يوتيوب بالذكاء الاصطناعي</title>
+<meta name="description" content="تطبيق أندرويد يقصّ فيديوهات يوتيوب إلى شورتات احترافية بالذكاء الاصطناعي — اختيار المدة والاتجاه، حفظ تلقائي في Movies/LATCHI CUT SHORT">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/latchidz/LATCHI-CUT-SHORT/main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',Tahoma,Arial,sans-serif;background:#07070F;color:#E8EAF2;overflow-x:hidden}
+  .bg{position:fixed;inset:0;background:radial-gradient(ellipse 80% 50% at 50% -10%,rgba(255,215,0,.13),transparent),radial-gradient(ellipse 60% 40% at 80% 100%,rgba(80,40,200,.12),transparent);z-index:-1}
+  header{text-align:center;padding:64px 20px 30px}
+  .logo{width:128px;height:128px;border-radius:28px;box-shadow:0 0 60px rgba(255,215,0,.35),0 8px 30px rgba(0,0,0,.6);border:2px solid rgba(255,215,0,.4)}
+  h1{font-size:clamp(30px,6vw,52px);margin-top:22px;background:linear-gradient(180deg,#FFE88A,#FFD700 45%,#C98A00);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:2px;font-weight:900}
+  .tagline{margin-top:12px;font-size:clamp(15px,2.6vw,20px);color:#B9C1D9;line-height:1.8;max-width:640px;margin-inline:auto}
+  .dl{display:inline-flex;align-items:center;gap:12px;margin-top:34px;padding:17px 46px;border-radius:18px;background:linear-gradient(90deg,#C98A00,#FFD700,#FFB300);color:#0A0F2C;font-size:19px;font-weight:900;text-decoration:none;box-shadow:0 10px 40px rgba(255,215,0,.35);transition:transform .15s}
+  .dl:hover{transform:scale(1.045)}
+  .badges{margin-top:20px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .badge{padding:7px 16px;border-radius:999px;border:1px solid rgba(255,215,0,.35);background:rgba(255,215,0,.07);color:#F2C14E;font-size:13px;font-weight:700}
+  .fix{margin:26px auto 0;max-width:680px;padding:14px 20px;border-radius:14px;background:rgba(40,200,120,.09);border:1px solid rgba(40,200,120,.4);color:#7BE0A8;font-size:14px;text-align:center;line-height:1.7}
+  section{max-width:1060px;margin:0 auto;padding:46px 20px}
+  h2{text-align:center;font-size:clamp(22px,4vw,32px);color:#FFD700;margin-bottom:34px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+  .card{background:linear-gradient(160deg,rgba(20,24,48,.85),rgba(10,12,26,.9));border:1px solid rgba(255,215,0,.16);border-radius:20px;padding:26px 22px;transition:transform .15s,border-color .15s}
+  .card:hover{transform:translateY(-5px);border-color:rgba(255,215,0,.55)}
+  .card .ic{font-size:34px}
+  .card h3{margin:12px 0 8px;color:#FFE88A;font-size:18px}
+  .card p{color:#9AA3BE;font-size:14.5px;line-height:1.8}
+  .steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+  .step{position:relative;background:rgba(15,18,38,.8);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:26px 20px 22px;text-align:center}
+  .step::before{counter-increment:s;content:counter(s);display:flex;align-items:center;justify-content:center;width:44px;height:44px;margin:0 auto 14px;border-radius:50%;background:linear-gradient(135deg,#FFD700,#C98A00);color:#0A0F2C;font-weight:900;font-size:20px}
+  .step h3{color:#fff;font-size:16.5px;margin-bottom:8px}
+  .step p{color:#9AA3BE;font-size:13.5px;line-height:1.7}
+  footer{text-align:center;padding:40px 20px 50px;color:#5A6178;font-size:13.5px;border-top:1px solid rgba(255,255,255,.06);margin-top:30px}
+  footer a{color:#F2C14E;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<header>
+  <img class="logo" src="https://raw.githubusercontent.com/latchidz/LATCHI-CUT-SHORT/main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" alt="LATCHI CUT SHORT">
+  <h1>LATCHI CUT SHORT</h1>
+  <p class="tagline">قصّ فيديوهات يوتيوب إلى <b style="color:#FFD700">شورتات احترافية</b> بالذكاء الاصطناعي —<br>الوكيل الذكي يحلل الفيديو ويخطط المقاطع ويقصّها لك تلقائيًا</p>
+  <a class="dl" href="https://github.com/latchidz/LATCHI-RELEASES/releases/download/cut-v1.2.0/LATCHI-CUT-SHORT-1.2.0.apk">⬇ تحميل التطبيق — v1.2.0</a>
+  <div class="badges">
+    <span class="badge">أندرويد 8.0+</span>
+    <span class="badge">مجاني بالكامل</span>
+    <span class="badge">بدون إعلانات</span>
+    <span class="badge">~15 ميجابايت</span>
+  </div>
+  <div class="fix">✅ الإصدار 1.2.0 يصلح خطأ <b>UNPLAYABLE: The page needs to be reloaded</b> — ترقية محرك الاستخراج إلى NewPipe Extractor 0.27.1 مع إعادة محاولة تلقائية، في الوضع الزمني ووضع الذكاء الاصطناعي معًا</div>
+</header>
+<section>
+  <h2>✨ المميزات</h2>
+  <div class="grid">
+    <div class="card"><div class="ic">🤖</div><h3>وكيل ذكاء اصطناعي</h3><p>يسألك داخل التطبيق، يحلل الفيديو عبر Hugging Face ويخطط أفضل المقاطع تلقائيًا — ومع الرابط و«مباشرة» ينفذ فورًا.</p></div>
+    <div class="card"><div class="ic">⏱️</div><h3>مدة المقطع باختيارك</h3><p>15 / 30 / 45 / 60 ثانية أو أكثر — تحكم كامل في طول كل شورت.</p></div>
+    <div class="card"><div class="ic">📐</div><h3>عمودي أو أفقي</h3><p>مقاسات إخراج جاهزة للمنصات: عمودي 1080×1920 للشورتات أو أفقي 1920×1080.</p></div>
+    <div class="card"><div class="ic">🎬</div><h3>قصّ دقيق بمحرك Media3</h3><p>قصّ على حدود المشاهد واللقطات بدون إعادة ترميز خسارة الجودة.</p></div>
+    <div class="card"><div class="ic">💾</div><h3>حفظ تلقائي</h3><p>كل المقاطع النهائية تُحفظ مباشرة في Movies/LATCHI CUT SHORT على جهازك.</p></div>
+    <div class="card"><div class="ic">🔗</div><h3>يعمل بالرابط مباشرة</h3><p>الصق رابط يوتيوب (watch / shorts / youtu.be) والتطبيق يتكفل بالباقي.</p></div>
+  </div>
+</section>
+<section>
+  <h2>🚀 كيف يعمل؟</h2>
+  <div class="steps">
+    <div class="step"><h3>الصق الرابط</h3><p>ضع رابط فيديو يوتيوب في التطبيق — يتعرف عليه فورًا بكل صيغ الروابط.</p></div>
+    <div class="step"><h3>اختر المدة والمقاس</h3><p>حدد مدة الشورت (15-60+ ثانية) والاتجاه (عمودي/أفقي) ثم «مباشرة».</p></div>
+    <div class="step"><h3>الذكاء الاصطناعي يقصّ</h3><p>الوكيل يخطط المشاهد، ينفذ القص، ويحفظ النتائج في مجلد LATCHI CUT SHORT.</p></div>
+  </div>
+</section>
+<footer>
+  LATCHI © 2026 — صُنع بالجزائر 🇩🇿 &nbsp;·&nbsp; <a href="https://github.com/latchidz/LATCHI-CUT-SHORT" target="_blank">الكود المصدري على GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/latchidz/LATCHI-RELEASES/releases/download/cut-v1.2.0/LATCHI-CUT-SHORT-1.2.0.apk">تحميل مباشر APK</a>
+</footer>
+</body>
+</html>
